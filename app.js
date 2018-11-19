@@ -30,4 +30,4 @@ app.post("/ret",(req,res)=>{
 // 		res.send(snapshot.val());
 // 	})
 // })
-app.listen(2000)
+app.listen(process.env.PORT)
